@@ -1,0 +1,38 @@
+html, body, #map {
+  height: 100%;
+  margin: 0;
+}
+
+body {
+  color: #222;
+  font-family: sans-serif;
+  line-height: 1.5;
+}
+
+#map {
+  width: 100%;
+}
+
+#info-layer {
+  display: none;
+  position: fixed;
+  top: 10%;
+  left: 10%;
+  width: 80%;
+  max-width: 600px;
+  background: white;
+  padding: 1rem;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.5);
+}
+
+#info-layer.active {
+  display: block;
+}
+
+#info-layer .close {
+  position: absolute;
+  right: 0.5rem;
+  top: 0.5rem;
+  cursor: pointer;
+}
