@@ -1,0 +1,7 @@
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width">
+<title>{{ if .IsHome }}{{ site.Title }}{{ else }}{{ printf "%s | %s" .Title site.Title }}{{ end }}</title>
+<link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
+{{ partialCached "head/css.html" . }}
+<script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+{{ partialCached "head/js.html" . }}
