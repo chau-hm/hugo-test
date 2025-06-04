@@ -23,3 +23,24 @@ go.work.sum
 
 # env file
 .env
+
+# Binary assets
+*.png
+*.jpg
+*.jpeg
+*.gif
+*.svg
+*.ico
+*.pdf
+*.zip
+*.tar
+*.tar.gz
+*.rar
+*.7z
+*.mp3
+*.mp4
+*.mov
+*.avi
+*.wav
+*.flac
+
